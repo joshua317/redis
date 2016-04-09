@@ -7,12 +7,11 @@
 /*
    简易用法
    $config = ['host' => '127.0.0.1', 'port' => '6379', 'password' => 'xxxx', 'prefix' => 'app:'];
-   $redis = redis::getInstance($config);
+   $redis = Redis::getInstance($config);
    $redis->set('a',3333333);
    $a=($redis->get('a'));
  */
-
-class redis
+class Redis
 {
     /**
      * Default config
